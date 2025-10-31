@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'optiAlpine';
+    src: url('https://obj.miinet.cloud/branding/fonts/optiAlpine/Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'optiAlpine', Arial, sans-serif;
+}

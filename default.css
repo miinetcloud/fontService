@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url('https://obj.miinet.cloud/branding/fonts/aeonik/Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Aeonik', Arial, sans-serif;
+}
