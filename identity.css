@@ -1,0 +1,56 @@
+@import url("./default.css");
+
+:root {
+    --ak-accent: #003088;
+
+    --ak-dark-foreground: #fafafa;
+    --ak-dark-foreground-darker: #bebebe;
+    --ak-dark-foreground-link: #003088;
+    --ak-dark-background: #000000;
+    --ak-dark-background-darker: #000000;
+    --ak-dark-background-light: #1c1e21;
+    --ak-dark-background-light-ish: #212427;
+    --ak-dark-background-lighter: #2b2e33;
+    --ak-global--Color--100: var(--pf-global--Color--100);
+    --ak-sidebar--minimum-auto-width: 80rem;
+    --ak-navbar--height: 7rem;
+    --pf-c-button--m-primary--hover--BackgroundColor: var(--ak-accent);
+    --pf-c-button--m-primary--BackgroundColor: var(--ak-accent);
+    --pf-c-form-control--BorderBottomColor: transparent !important;
+}
+
+
+
+html,
+body {
+    font-family: 'Aeonik', Arial, sans-serif !important;
+}
+
+.ak-brand img {
+    padding: 0 !important;
+}
+
+.pf-c-form__group {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.pf-c-form-control {
+    border-radius: 0 !important;
+    border: 1px solid #000 !important;
+    padding: 10px !important;
+    font-size: 20px !important;
+}
+
+.pf-c-button {
+    border-radius: 0 !important;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pf-c-button:hover {
+    scale: 0.99;
+    transition: 0s all;
+}
