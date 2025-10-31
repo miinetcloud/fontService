@@ -54,3 +54,8 @@ body {
     scale: 0.99;
     transition: 0s all;
 }
+
+
+.pf-c-login__footer {
+  display: none;
+}
