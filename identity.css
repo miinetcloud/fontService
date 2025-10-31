@@ -1,25 +1,29 @@
-@import url("./default.css");
-
 :root {
-    --ak-accent: #003088;
+    --ak-accent: #003088 !important;
 
-    --ak-dark-foreground: #fafafa;
-    --ak-dark-foreground-darker: #bebebe;
-    --ak-dark-foreground-link: #003088;
-    --ak-dark-background: #000000;
-    --ak-dark-background-darker: #000000;
-    --ak-dark-background-light: #1c1e21;
-    --ak-dark-background-light-ish: #212427;
-    --ak-dark-background-lighter: #2b2e33;
-    --ak-global--Color--100: var(--pf-global--Color--100);
-    --ak-sidebar--minimum-auto-width: 80rem;
-    --ak-navbar--height: 7rem;
-    --pf-c-button--m-primary--hover--BackgroundColor: var(--ak-accent);
-    --pf-c-button--m-primary--BackgroundColor: var(--ak-accent);
+    --ak-dark-foreground: #fafafa !important;
+    --ak-dark-foreground-darker: #bebebe !important;
+    --ak-dark-foreground-link: #003088 !important;
+    --ak-dark-background: #000000 !important;
+    --ak-dark-background-darker: #000000 !important;
+    --ak-dark-background-light: #1c1e21 !important;
+    --ak-dark-background-light-ish: #212427 !important;
+    --ak-dark-background-lighter: #2b2e33 !important;
+    --ak-global--Color--100: var(--pf-global--Color--100) !important;
+    --ak-sidebar--minimum-auto-width: 80rem !important;
+    --ak-navbar--height: 7rem !important;
+    --pf-c-button--m-primary--hover--BackgroundColor: var(--ak-accent) !important;
+    --pf-c-button--m-primary--BackgroundColor: var(--ak-accent) !important;
     --pf-c-form-control--BorderBottomColor: transparent !important;
+    --pf-c-login__main--BackgroundColor: #000000 !important;
 }
 
-
+@font-face {
+    font-family: 'Aeonik';
+    src: url('https://obj.miinet.cloud/branding/fonts/aeonik/Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
@@ -30,32 +34,35 @@ body {
     padding: 0 !important;
 }
 
+.pf-c-login__main {
+    background-color: #000000 !important;
+}
+
 .pf-c-form__group {
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
+    gap: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 5px !important;
 }
 
 .pf-c-form-control {
     border-radius: 0 !important;
-    border: 1px solid #000 !important;
-    padding: 10px !important;
-    font-size: 20px !important;
+    border: none !important;
 }
 
 .pf-c-button {
     border-radius: 0 !important;
-    padding: 10px;
-    font-size: 20px;
+    padding: 10px !important;
+    font-size: 20px !important;
+    background-color: var(--ak-accent) !important;
 }
 
 .pf-c-button:hover {
-    scale: 0.99;
-    transition: 0s all;
+    transform: scale(0.99) !important;
+    transition: 0s all !important;
+    background-color: var(--ak-accent) !important;
 }
 
-
 .pf-c-login__footer {
-  display: none;
+  display: none !important;
 }
